@@ -1,0 +1,223 @@
+/* common */
+body {
+  width: 100%;
+}
+
+h2 .en {
+  font-size: 36px;
+
+  display: block;
+
+  letter-spacing: 0.3em;
+
+  color: #24a8bf;
+}
+
+
+h2 .ja {
+  font-size: 16px;
+  font-weight: normal;
+
+  display: inline-block;
+
+  padding: 16px 0;
+
+  border-bottom: 2px solid #000000;
+}
+
+
+a {
+  transition: .3s;
+  text-decoration: none;
+
+  color: #333333;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* header */
+header {
+  width: 100%;
+  padding: 40px 0;
+
+  text-align: center;
+}
+
+
+header h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 36px;
+
+  text-align: center;
+}
+
+
+/* nav */
+nav {
+  width: 80%;
+  margin: 32px auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* concept */
+.concept {
+  display: flex;
+
+  margin-top: 32px;
+}
+
+.concept img {
+  width: 50%;
+}
+
+.concept .text {
+  font-size: 24px;
+
+  width: 50%;
+  padding: 8% 5%;
+}
+
+.concept .main-text {
+  font-size: 32px;
+
+  color: #24a8bf;
+}
+
+.concept p {
+  margin-top: 16px;
+}
+
+
+/* blog */
+.blog {
+  margin-top: 64px;
+}
+
+.blog h2 {
+  text-align: center;
+}
+
+.blog .all-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog .all-article h2 {
+  font-weight: normal;
+
+  margin: 16px 0px 8px 0;
+
+  text-align: left;
+}
+
+
+.blog article {
+  width: calc((100% - 64px) / 3);
+  margin-top: 32px;
+}
+
+/* btn */
+.btn {
+  display: block;
+
+  width: 128px;
+  margin: 0 auto;
+  margin-top: 64px;
+  padding: 16px;
+
+  text-align: center;
+
+  border: 2px solid #24a8bf;
+}
+
+.btn p {
+  font-size: 16px;
+
+  display: inline-block;
+
+  color: #24a8bf;
+}
+
+.btn img {
+  width: 8px;
+
+  vertical-align: middle;
+}
+
+/* footer */
+footer {
+  height: 120px;
+  margin-top: 64px;
+
+  text-align: center;
+
+  background-color: #333333;
+}
+
+footer h3 {
+  font-family: 'Sacramento', cursive;
+  font-size: 24px;
+
+  margin-bottom: 16px;
+  padding-top: 32px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+footer small {
+  font-size: 12px;
+
+  color: #8b8b8b;
+}
+
+
+
+@media (max-width: 767px) {
+  .concept {
+    display: block;
+
+    margin: 0;
+
+    text-align: center;
+  }
+
+  .concept img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .concept .text {
+    width: 80%;
+
+    text-align: left;
+  }
+
+  .blog .all-article {
+    display: block;
+  }
+
+  .blog .all-article article {
+    width: 100%;
+  }
+}
